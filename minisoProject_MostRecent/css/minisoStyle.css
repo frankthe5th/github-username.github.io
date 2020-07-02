@@ -1,0 +1,301 @@
+ @font-face {
+     src: url('Hind Vadodara');
+     font-family: 'Hind Vadodara', sans-serif;
+
+ }
+
+ * {
+     font-family: 'Hind Vadodara';
+ }
+
+ h1 {
+     font-size: 2rem;
+ }
+ p {
+    font-size: 40pt;
+     line-height:2;
+}
+ h2 {
+     color: white;
+
+ }
+
+ h3 {
+     font-weight: 500px;
+     font-size: 1.5rem;
+
+ }
+
+ h4 {
+     font-size: 110%;
+     margin-left: 8%;
+ }
+
+ h6 {
+     color: white;
+     font-size: 19px;
+     margin-left: 6.5rem;
+     margin-top: -.5rem;
+ }
+
+
+
+ /*NAV DIV
+     holds everything in nav*/
+ .navSection {
+     background-color: #E61523;
+     width: 100%;
+     height:150px;
+     margin-top: -35px;
+     margin-right:none ;
+     padding:25px ;
+     font-size: 15pt;
+ }
+
+
+ /* MINISO LOGO DIV*/
+ .icon {
+     content: url(../images/logo01.png);
+     text-align: center;
+     align-content: center;
+     width: 17rem;
+     height: auto;
+     background-repeat: no-repeat;
+ }
+
+
+ /*NAV ICONS DIV*/
+ #navIcon {
+     text-align: right;
+
+ }
+
+
+ /* NAV ICONS FONTAWSOME CSS */
+ .fas {
+     font-size: 30px;
+     color: white;
+     padding: .5rem;
+ }
+
+ /*NAV ICON FONTAWSOME HOVER*/
+ .fas:hover {
+     text-shadow: 1.5px 1.5px #DBD3D8;
+     color: white;
+     cursor: pointer;
+ }
+
+
+ /*NAV LINK BLOCK*/
+
+ nav {
+     margin-top: -5rem;
+     text-align: center;
+     font-size: 50px;
+ }
+
+ /* NAV LINKS DEFAULT*/
+ nav a {
+
+     display: inline-block;
+     padding: 15px;
+     color: white;
+     text-decoration: none;
+     text-align: center;
+     content: center;
+     margin: auto;
+
+ }
+
+ /*SUBSCRIBE NAV START*/
+
+ .sub {
+     background-color: #E61523;
+     bottom: 0;
+     width: auto;
+     margin-top: 25%;
+     color: white;
+ }
+
+ /*HELP NAV START*/
+ .helpnavbar {
+     overflow: hidden;
+     background-color: #C51616;
+     position: fixed;
+     bottom: 0;
+     width: auto;
+     padding: 0 50px;
+
+ }
+
+ .helpnavbar a {
+     float: right;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 50px 20px;
+     text-decoration: none;
+     font-size: 50px;
+ }
+
+ /*HOVERING ON NAV LINKS*/
+ nav a:hover {
+     text-shadow: 1px 1px #DBD3D8;
+     color: white;
+ }
+
+ /*VISIED LINKS*/
+ .nav a:visited {}
+
+ /*BANNER IMAGE DIV */
+ .homepageImgDiv {
+     content: url(../images/homepageBanner.svg);
+     padding-top: 3%;
+     margin-top: ;
+     margin-bottom: -30px;
+     width: 70%;
+     height: auto;
+     border-radius: 20px;
+     margin: auto;
+
+ }
+
+
+
+ /*INSTAGRAM DIVS AND IMAGES*/
+
+ .instaDiv {
+     background-color: white;
+     display: grid;
+     grid-row-gap: 150px;
+     border-spacing: 25px;
+     line-height: 1.6;
+
+ }
+
+ /*.secondinstaDiv {
+     background-color:none;
+     width: 100%;
+     height: 300px;
+     border-radius: 15px;
+     margin-top: 8%;
+     vertical-align: inherit;
+     padding-top: 15%;
+     
+ }*/
+
+ .firstLeft {
+     content: url(../images/foodImage1.jpg) ;
+     width: 650px;
+     height:650px;
+    
+
+ }
+
+ .firstCenter {
+     content: url(../images/foodImage02.jfif);
+     width: 650px;
+     height: 650px;
+     
+
+ }
+
+ .firstright {
+     content: url(../images/foodImage03.jpeg);
+     width: 650px;
+     height: 650px;
+    
+
+ }
+
+ .firstEnd {
+     content: url(../images/foodImage04.jpeg);
+     width: 650px;
+     height: 650px;
+   
+ }
+
+ .secondLeft {
+     content: url(../images/foodImage05.jpeg);
+     width: 650px;
+     height: 650px;
+     
+ }
+
+ .secondCenter {
+     content: url(../images/foodImage06.jpg);
+     width: 650px;
+     height: 650px;
+     
+ }
+
+ .secondRight {
+     content: url(../images/foodImage07.jpg);
+     width: 650px;
+     height: 650px;
+    
+ }
+
+ .secondEnd {
+     content: url(../images/foodImage08.jpeg);
+     width: 650px;
+     height: 650px;
+    
+
+ }
+
+
+
+ /* NAV ICONS FONTAWSOME CSS */
+ .fas other {
+     font-size: 30px;
+     color: white;
+     padding: .5rem;
+ }
+
+ .centerBtn {
+
+     background-color: #E61523;
+     color: white;
+     font-size: 20px;
+     padding: ;
+     border: none;
+     border-radius: 2px;
+ }
+
+
+ .zipcode {
+     text-align: center;
+     background-color: #E61523;
+     color: white;
+     padding-bottom: 4px;
+     width: 25%;
+     height: auto;
+     border-radius: 2px;
+
+ }
+
+ .map {
+     text-align: right;
+     content: url(../images/map.png);
+     width: 100%;
+     height: auto;
+     margin-top: auto;
+     vertical-align: inherit;
+     padding: 6px;
+
+
+ }
+
+ /* shop style css */
+ #itemselection {
+     line-height: 1.6;
+     display: grid;
+     grid-template-columns: 33% 33% 33% ;
+     grid-row-gap: 100px;
+ }
+.about {
+    font-size: 150pt;
+    color:#666666;
+    padding:-35;
+}
